@@ -1,22 +1,25 @@
 # 📊 Retail Sales Forecasting & Inventory Optimization System
 
+🚀 End-to-end retail analytics system for product-level demand forecasting and inventory optimization using ARIMA and an interactive Streamlit dashboard.
+
+---
+
 ## 🚀 Overview
 
-This project presents an end-to-end retail analytics system designed to forecast product-level sales and optimize inventory decisions using time-series forecasting techniques.
-
-It simulates real-world retail scenarios by incorporating demand trends, seasonality, and inventory management strategies.
+This project simulates a real-world retail system that predicts product demand and optimizes inventory decisions.
+It helps businesses avoid overstocking and stockouts by using data-driven forecasting and statistical inventory models.
 
 ---
 
 ## 💡 Problem Statement
 
-Retail businesses often face major challenges such as:
+Retail businesses often struggle with:
 
-* Overstock → Increased holding costs
-* Stockouts → Lost sales and poor customer experience
-* Inefficient demand planning
+* Overstock → Increased storage cost
+* Stockouts → Lost sales
+* Poor demand planning
 
-This system solves these problems by leveraging data-driven forecasting and inventory optimization.
+This system solves these issues by forecasting future demand and recommending optimal inventory levels.
 
 ---
 
@@ -39,6 +42,12 @@ This system solves these problems by leveraging data-driven forecasting and inve
 * Statsmodels (ARIMA)
 * Streamlit
 * Scikit-learn
+
+---
+
+## 📁 Dataset
+
+Synthetic retail dataset generated with trend, seasonality, and noise to simulate real-world sales behavior.
 
 ---
 
@@ -73,8 +82,7 @@ Retail-Sales-Forecasting-Inventory-Optimization/
 ├── generate_data.py
 ├── main.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -101,12 +109,22 @@ streamlit run app.py
 
 ---
 
-## 📊 Results
+## 🎥 Demo
 
-* MAE: ~10
-* RMSE: ~14
+Run locally using:
 
-The model successfully captures trend and seasonality, enabling accurate demand forecasting and stable inventory planning.
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📊 Model Performance
+
+* MAE: ~10 units
+* RMSE: ~14 units
+
+The model captures trend and seasonality effectively, enabling stable and reliable inventory planning.
 
 ---
 
@@ -143,23 +161,20 @@ The model successfully captures trend and seasonality, enabling accurate demand 
 * Reduces stockouts and overstock situations
 * Improves demand planning
 * Enables data-driven inventory decisions
-* Helps retailers optimize supply chain operations
+* Supports efficient supply chain management
 
 ---
 
 ## 🚀 Future Improvements
 
-* Multi-store and region-wise forecasting
-* Machine learning models (XGBoost, LSTM)
+* Multi-store forecasting
+* Advanced ML models (XGBoost, LSTM)
 * Real-time data integration
 * Promotion and pricing impact analysis
-* Automated replenishment system
 
 ---
 
 ## 👤 Author
 
-**Varda Kunde**
-B.Tech CSE (AI/ML) Student
-
-
+**Varda**
+B.Tech CSE (AI/ML)

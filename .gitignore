@@ -1,0 +1,41 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+
+# VS Code
+
+.vscode/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Data files (optional if large)
+
+# data/raw/*.csv
+
+# Streamlit cache
+
+.streamlit/
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
